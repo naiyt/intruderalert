@@ -1,0 +1,5 @@
+BACKUP_IMAGES_PATH = '/sdcard/DCIM/Tasker/iebackupimgs'
+LOG_PATH = '/sdcard/DCIM/Tasker/ielogs'
+MAIN_LOG = 'mainlog.txt'
+FAILED_EMAIL_LOG = 'failedemail.txt'
+IMAGE_PATH = '/sdcard/DCIM/Tasker'
