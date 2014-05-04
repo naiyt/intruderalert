@@ -7,4 +7,4 @@ If someone puts in an incorrect PIN into your Android device, this will take pic
 
 This runs off of two profiles. One monitors for incorrect PINs, and takes the pictures. It checks to see if it has an internet connection available -- if not, it stores the images in a temporary directory. The second profile checks every 10 minutes to see if there are any unsent images. If so, it tries to send them. If it can, it deletes the images. If not, it will just try again in another 10 minutes.
 
-I'll try to get instructions and the profiles committed shortly as well.
+You'll need to set the %EMAIL_TO, %EMAIL_PSWD, and %EMAIL_USER variables in the two XML profiles. One big problem with this is storing that password in plain text -- awful idea. It would be good to set this up with Oauth instead. For now, I just recommend setting up an email address dedicated to JUST sending these pictures, and put a password on it you don't use anywhere else.

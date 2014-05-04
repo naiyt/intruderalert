@@ -10,7 +10,7 @@ from email.mime.audio import MIMEAudio
 from email.mime.base import MIMEBase
 from email.mime.image import MIMEImage
 
-CONNECTION_TIMEOUT = 1 # How long we wait for an internet connection before failing out
+CONNECTION_TIMEOUT = 10 # How long we wait for an internet connection before failing out
 TEST_URL = 'http://74.125.228.100' # The url we test for connectivity; defaults to a Google IP
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
